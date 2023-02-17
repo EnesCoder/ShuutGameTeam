@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerScript : MonoBehaviour
 {
     public GameObject player;
-    public float speed = 4f;
+    public float speed = 0.8f;
 
     public GameObject bullet;
 
