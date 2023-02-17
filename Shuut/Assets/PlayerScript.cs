@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerScript : MonoBehaviour
 {
     public GameObject player;
-    public float speed = 2.8f;
+    public float speed = 4f;
 
     public GameObject bullet;
 
@@ -11,7 +11,7 @@ public class PlayerScript : MonoBehaviour
     public Sprite walk1;
     public Sprite walk2;
 
-    public float ShootTimer = 6f;
+    public float ShootTimer = 8f;
     bool startTimer = false;
     bool canShoot = true;
 
@@ -78,7 +78,7 @@ public class PlayerScript : MonoBehaviour
             if (ShootTimer <= 0) {
                 canShoot = true;
                 startTimer = false;
-                ShootTimer = 6f;
+                ShootTimer = 8f;
             }
         }
     }
